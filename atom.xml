@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pengjiangyi.github.io/"/>
-  <updated>2017-03-22T01:17:49.389Z</updated>
+  <updated>2017-03-22T10:53:39.927Z</updated>
   <id>https://pengjiangyi.github.io/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>next主题添加网易云播放器在侧栏</title>
+    <link href="https://pengjiangyi.github.io/2017/03/22/%E7%BD%91%E6%98%93%E4%BA%91/"/>
+    <id>https://pengjiangyi.github.io/2017/03/22/网易云/</id>
+    <published>2017-03-22T10:53:14.973Z</published>
+    <updated>2017-03-22T10:53:39.927Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#160; &#160; &#160; &#160;一般都是用<a href="http://music.163.com/" target="_blank" rel="external">网易云</a>，这个只适用于<strong>pc</strong>端,我适用的主题风格是pisces，其他两种没有尝试</p>
+<h3 id="生成单曲"><a href="#生成单曲" class="headerlink" title="生成单曲"></a>生成单曲</h3><p><img src="http://on5j96b7m.bkt.clouddn.com/cloud/20170322/183731313.png" alt="mark"><br><a id="more"></a></p>
+<h3 id="生成歌单"><a href="#生成歌单" class="headerlink" title="生成歌单"></a>生成歌单</h3><blockquote>
+<p>记住有些歌有版权问题，可能生成了歌单，但是不支持播放<br><img src="http://on5j96b7m.bkt.clouddn.com/cloud/20170322/184024394.png" alt="mark"></p>
+</blockquote>
+<h3 id="添加外链到侧栏"><a href="#添加外链到侧栏" class="headerlink" title="添加外链到侧栏"></a>添加外链到侧栏</h3><p> 进入\themes\next\layout_macro下  选择<strong>sidebar.swig</strong><br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&#123;% if theme.links %&#125;</div><div class="line">         &lt;div class="links-of-blogroll motion-element &#123;&#123; "links-of-blogroll-" + theme.links_layout | default('inline') &#125;&#125;"&gt;</div><div class="line">           &lt;div class="links-of-blogroll-title"&gt;</div><div class="line">             &lt;i class="fa  fa-fw fa-&#123;&#123; theme.links_icon | default('globe') | lower &#125;&#125;"&gt;&lt;/i&gt;</div><div class="line">             &#123;&#123; theme.links_title &#125;&#125;</div><div class="line">           &lt;/div&gt;</div><div class="line">           &lt;ul class="links-of-blogroll-list"&gt;</div><div class="line">             &#123;% for name, link in theme.links %&#125;</div><div class="line">               &lt;li class="links-of-blogroll-item"&gt;</div><div class="line">                 &lt;a href="&#123;&#123; link &#125;&#125;" title="&#123;&#123; name &#125;&#125;" target="_blank"&gt;&#123;&#123; name &#125;&#125;&lt;/a&gt;</div><div class="line">               &lt;/li&gt;</div><div class="line">             &#123;% endfor %&#125;</div><div class="line">           &lt;/ul&gt;</div><div class="line">         &lt;/div&gt;</div><div class="line">       &#123;% endif %&#125;</div></pre></td></tr></table></figure></p>
+<p>&#160; &#160; &#160; &#160;这里的Links就是你的那个外链标签，比如微博，github之类的<br><br><br>&#160; &#160; &#160; &#160;在这个下面，添加刚刚网易云的链接<br><br><br>&#160; &#160; &#160; &#160;比如我的<br><br></p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder=<span class="string">"no"</span> border=<span class="string">"0"</span> marginwidth=<span class="string">"0"</span> marginheight=<span class="string">"0"</span> width=<span class="number">330</span> height=<span class="number">110</span> src=<span class="string">"//music.163.com/outchain/player?type=0&amp;id=637875896&amp;auto=0&amp;height=90"</span>&gt;&lt;<span class="regexp">/iframe&gt;</span></div></pre></td></tr></table></figure>
+<p>&#160; &#160; &#160; &#160;然后 hexo d -g部署发布就可以看到效果了，当然你也可以直接插入到你的文章中去，直接在你的文章中引用就可以了<br><br><br>&#160; &#160; &#160; &#160;效果可以参考我博客的效果</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;#160; &amp;#160; &amp;#160; &amp;#160;一般都是用&lt;a href=&quot;http://music.163.com/&quot;&gt;网易云&lt;/a&gt;，这个只适用于&lt;strong&gt;pc&lt;/strong&gt;端,我适用的主题风格是pisces，其他两种没有尝试&lt;/p&gt;
+&lt;h3 id=&quot;生成单曲&quot;&gt;&lt;a href=&quot;#生成单曲&quot; class=&quot;headerlink&quot; title=&quot;生成单曲&quot;&gt;&lt;/a&gt;生成单曲&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://on5j96b7m.bkt.clouddn.com/cloud/20170322/183731313.png&quot; alt=&quot;mark&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://pengjiangyi.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://pengjiangyi.github.io/tags/hexo/"/>
+    
+      <category term="next" scheme="https://pengjiangyi.github.io/tags/next/"/>
+    
+  </entry>
   
   <entry>
     <title>雨</title>
