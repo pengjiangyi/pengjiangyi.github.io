@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pengjiangyi.github.io/"/>
-  <updated>2017-03-22T11:12:11.359Z</updated>
+  <updated>2017-03-25T02:27:49.909Z</updated>
   <id>https://pengjiangyi.github.io/</id>
   
   <author>
@@ -20,13 +20,12 @@
     <link href="https://pengjiangyi.github.io/2017/03/22/%E7%BD%91%E6%98%93%E4%BA%91/"/>
     <id>https://pengjiangyi.github.io/2017/03/22/网易云/</id>
     <published>2017-03-22T10:53:14.973Z</published>
-    <updated>2017-03-22T11:12:11.359Z</updated>
+    <updated>2017-03-25T02:27:49.909Z</updated>
     
     <content type="html"><![CDATA[<p>&#160; &#160; &#160; &#160;一般都是用<a href="http://music.163.com/" target="_blank" rel="external">网易云</a>，这个只适用于<strong>pc</strong>端,我适用的主题风格是pisces，其他两种没有尝试</p>
-<h3 id="生成单曲"><a href="#生成单曲" class="headerlink" title="生成单曲"></a>生成单曲</h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://on5j96b7m.bkt.clouddn.com/cloud/20170322/183731313.png" class="full-image" alt="cloud"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
-<a id="more"></a>
-<h3 id="生成歌单"><a href="#生成歌单" class="headerlink" title="生成歌单"></a>生成歌单</h3><blockquote>
-<p>记住有些歌有版权问题，可能生成了歌单，但是不支持播放<br><img src="http://on5j96b7m.bkt.clouddn.com/cloud/20170322/184024394.png" alt="mark"></p>
+<h3 id="生成单曲"><a href="#生成单曲" class="headerlink" title="生成单曲"></a>生成单曲</h3><blockquote>
+<p><img src="http://on5j96b7m.bkt.clouddn.com/cloud/20170325/102641592.png" alt="mark"><br><a id="more"></a><br><img src="http://on5j96b7m.bkt.clouddn.com/cloud/20170325/102653974.png" alt="mark"></p>
+<h3 id="生成歌单"><a href="#生成歌单" class="headerlink" title="生成歌单"></a>生成歌单</h3><p>记住有些歌有版权问题，可能生成了歌单，但是不支持播放<br><img src="http://on5j96b7m.bkt.clouddn.com/cloud/20170325/102714264.png" alt="mark"><br><img src="http://on5j96b7m.bkt.clouddn.com/cloud/20170325/102730464.png" alt="mark"></p>
 </blockquote>
 <h3 id="添加外链到侧栏"><a href="#添加外链到侧栏" class="headerlink" title="添加外链到侧栏"></a>添加外链到侧栏</h3><p> 进入\themes\next\layout_macro下  选择<strong>sidebar.swig</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&#123;% if theme.links %&#125;</div><div class="line">         &lt;div class=&quot;links-of-blogroll motion-element &#123;&#123; &quot;links-of-blogroll-&quot; + theme.links_layout | default(&apos;inline&apos;) &#125;&#125;&quot;&gt;</div><div class="line">           &lt;div class=&quot;links-of-blogroll-title&quot;&gt;</div><div class="line">             &lt;i class=&quot;fa  fa-fw fa-&#123;&#123; theme.links_icon | default(&apos;globe&apos;) | lower &#125;&#125;&quot;&gt;&lt;/i&gt;</div><div class="line">             &#123;&#123; theme.links_title &#125;&#125;</div><div class="line">           &lt;/div&gt;</div><div class="line">           &lt;ul class=&quot;links-of-blogroll-list&quot;&gt;</div><div class="line">             &#123;% for name, link in theme.links %&#125;</div><div class="line">               &lt;li class=&quot;links-of-blogroll-item&quot;&gt;</div><div class="line">                 &lt;a href=&quot;&#123;&#123; link &#125;&#125;&quot; title=&quot;&#123;&#123; name &#125;&#125;&quot; target=&quot;_blank&quot;&gt;&#123;&#123; name &#125;&#125;&lt;/a&gt;</div><div class="line">               &lt;/li&gt;</div><div class="line">             &#123;% endfor %&#125;</div><div class="line">           &lt;/ul&gt;</div><div class="line">         &lt;/div&gt;</div><div class="line">       &#123;% endif %&#125;</div></pre></td></tr></table></figure></p>
 <p>&#160; &#160; &#160; &#160;这里的Links就是你的那个外链标签，比如微博，github之类的<br>&#160; &#160; &#160; &#160;在这个下面，添加刚刚网易云的链接<br>&#160; &#160; &#160; &#160;比如我的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=110 src=&quot;//music.163.com/outchain/player?type=0&amp;id=637875896&amp;auto=0&amp;height=90&quot;&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure></p>
@@ -36,7 +35,8 @@
     <summary type="html">
     
       &lt;p&gt;&amp;#160; &amp;#160; &amp;#160; &amp;#160;一般都是用&lt;a href=&quot;http://music.163.com/&quot;&gt;网易云&lt;/a&gt;，这个只适用于&lt;strong&gt;pc&lt;/strong&gt;端,我适用的主题风格是pisces，其他两种没有尝试&lt;/p&gt;
-&lt;h3 id=&quot;生成单曲&quot;&gt;&lt;a href=&quot;#生成单曲&quot; class=&quot;headerlink&quot; title=&quot;生成单曲&quot;&gt;&lt;/a&gt;生成单曲&lt;/h3&gt;&lt;span itemprop=&quot;image&quot; itemscope itemtype=&quot;http://schema.org/ImageObject&quot;&gt;&lt;img itemprop=&quot;url image&quot; src=&quot;http://on5j96b7m.bkt.clouddn.com/cloud/20170322/183731313.png&quot; class=&quot;full-image&quot; alt=&quot;cloud&quot; /&gt;&lt;meta itemprop=&quot;width&quot; content=&quot;auto&quot;&gt;&lt;meta itemprop=&quot;height&quot; content=&quot;auto&quot;&gt;&lt;/span&gt;
+&lt;h3 id=&quot;生成单曲&quot;&gt;&lt;a href=&quot;#生成单曲&quot; class=&quot;headerlink&quot; title=&quot;生成单曲&quot;&gt;&lt;/a&gt;生成单曲&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://on5j96b7m.bkt.clouddn.com/cloud/20170325/102641592.png&quot; alt=&quot;mark&quot;&gt;&lt;br&gt;
     
     </summary>
     
