@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pengjiangyi.github.io/"/>
-  <updated>2017-03-26T15:31:37.640Z</updated>
+  <updated>2017-03-26T15:41:19.092Z</updated>
   <id>https://pengjiangyi.github.io/</id>
   
   <author>
@@ -16,33 +16,79 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>java</title>
     <link href="https://pengjiangyi.github.io/2017/03/26/java1/"/>
     <id>https://pengjiangyi.github.io/2017/03/26/java1/</id>
     <published>2017-03-26T15:34:17.253Z</published>
-    <updated>2017-03-26T15:31:37.640Z</updated>
+    <updated>2017-03-26T15:41:19.092Z</updated>
     
-    <content type="html"><![CDATA[<p><meta charset="utf-8"></p>
-<p><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"></p>
-<p><style><br>h1,<br>h2,<br>h3,<br>h4,<br>h5,<br>h6,<br>p,<br>blockquote {<br>    margin: 0;<br>    padding: 0;<br>}<br>body {<br>    font-family: “Helvetica Neue”, Helvetica, “Hiragino Sans GB”, Arial, sans-serif;<br>    font-size: 13px;<br>    line-height: 18px;<br>    color: #737373;<br>    background-color: white;<br>    margin: 10px 13px 10px 13px;<br>}<br>table {<br>    margin: 10px 0 15px 0;<br>    border-collapse: collapse;<br>}<br>td,th {<br>    border: 1px solid #ddd;<br>    padding: 3px 10px;<br>}<br>th {<br>    padding: 5px 10px;<br>}</p>
-<p>a {<br>    color: #0069d6;<br>}<br>a:hover {<br>    color: #0050a3;<br>    text-decoration: none;<br>}<br>a img {<br>    border: none;<br>}<br>p {<br>    margin-bottom: 9px;<br>}<br>h1,<br>h2,<br>h3,<br>h4,<br>h5,<br>h6 {<br>    color: #404040;<br>    line-height: 36px;<br>}<br>h1 {<br>    margin-bottom: 18px;<br>    font-size: 30px;<br>}<br>h2 {<br>    font-size: 24px;<br>}<br>h3 {<br>    font-size: 18px;<br>}<br>h4 {<br>    font-size: 16px;<br>}<br>h5 {<br>    font-size: 14px;<br>}<br>h6 {<br>    font-size: 13px;<br>}<br>hr {<br>    margin: 0 0 19px;<br>    border: 0;<br>    border-bottom: 1px solid #ccc;<br>}<br>blockquote {<br>    padding: 13px 13px 21px 15px;<br>    margin-bottom: 18px;<br>    font-family:georgia,serif;<br>    font-style: italic;<br>}<br>blockquote:before {<br>    content:”\201C”;<br>    font-size:40px;<br>    margin-left:-10px;<br>    font-family:georgia,serif;<br>    color:#eee;<br>}<br>blockquote p {<br>    font-size: 14px;<br>    font-weight: 300;<br>    line-height: 18px;<br>    margin-bottom: 0;<br>    font-style: italic;<br>}<br>code, pre {<br>    font-family: Monaco, Andale Mono, Courier New, monospace;<br>}<br>code {<br>    background-color: #fee9cc;<br>    color: rgba(0, 0, 0, 0.75);<br>    padding: 1px 3px;<br>    font-size: 12px;<br>    -webkit-border-radius: 3px;<br>    -moz-border-radius: 3px;<br>    border-radius: 3px;<br>}<br>pre {<br>    display: block;<br>    padding: 14px;<br>    margin: 0 0 18px;<br>    line-height: 16px;<br>    font-size: 11px;<br>    border: 1px solid #d9d9d9;<br>    white-space: pre-wrap;<br>    word-wrap: break-word;<br>}<br>pre code {<br>    background-color: #fff;<br>    color:#737373;<br>    font-size: 11px;<br>    padding: 0;<br>}<br>sup {<br>    font-size: 0.83em;<br>    vertical-align: super;<br>    line-height: 0;<br>}</p>
-<ul>
-<li>{<br>  -webkit-print-color-adjust: exact;<br>}<br>@media screen and (min-width: 914px) {<br>  body {<pre><code>width: 854px;
-margin:10px auto;
-</code></pre>  }<br>}<br>@media print {<br>  body,code,pre code,h1,h2,h3,h4,h5,h6 {<pre><code>color: black;
-</code></pre>  }<br>  table, pre {<pre><code>page-break-inside: avoid;
-</code></pre>  }<br>}<br></style><br>java基础知识</p><h2 id="常用关键字"><a href="#常用关键字" class="headerlink" title="常用关键字"></a>常用关键字</h2><table><br><td>abstract</td><br><td>const</td><br><td>finally</td><br><td>int</td><br><td>public</td><br><td>this</td><br><tr><br><td>boolean</td><br><td>continue</td><br><td>float</td><br><td>interfaces</td><br><td>return</td><br><td>throw</td><br></tr><br><tr><br><td>break</td><br><td>default</td><br><td>for</td><br><td>long</td><br><td>short</td><br><td>throws</td><br></tr><br><tr><br><td>byte</td><br><td>do</td><br><td>goto</td><br><td>native</td><br><td>static</td><br><td>transient</td><br></tr><br><tr><br><td>case</td><br><td>double</td><br><td>if</td><br><td>new</td><br><td>strictfp</td><br><td>try</td><br></tr><br><tr><br><td>catch</td><br><td>else</td><br><td>implments</td><br><td>package</td><br><td>super</td><br><td>void</td><br></tr><br><tr><br><td>char</td><br><td>extends</td><br><td>import</td><br><td>private</td><br><td>switch</td><br><td>volatile</td><br></tr><tr><br><td>class</td><br><td>final</td><br><td>instanceof</td><br><td>protected</td><br><td>synchronized</td><br><td>while</td><br></tr><br></table><h3 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h3><code>byValue</code>, <code>cast</code>, <code>false</code>, <code>future</code>, <code>generic</code>, <code>inner</code>, <code>operator</code>, <code>outer</code>, <code>rest</code>, <code>true</code>, <code>var</code> , <code>goto</code> ，<code>const</code>,<code>null</code><br>##命名规范<blockquote>
-<p>保证可读性  <br><br>第一个字符不能是数字 <br><br>不能是关键字<br><br>不能是保留字<code>true</code>,<code>false</code>,<code>null</code><br><br>类名每个单词首字母大写，比如<code>FirstTest</code><br><br>方法名与变量名，除第一个首字母小写，其他首字母大写<br><br>常量名都要大写  final修饰的变量<br><br>包名都是小写<br></p>
+    <content type="html"><![CDATA[<h2 id="常用关键字"><a href="#常用关键字" class="headerlink" title="常用关键字"></a>常用关键字</h2><p><table></table></p>
+<p><td>abstract</td></p>
+<p><td>const</td></p>
+<p><td>finally</td></p>
+<p><td>int</td></p>
+<p><td>public</td></p>
+<p><td>this</td></p>
+<p><tr></tr></p>
+<p><td>boolean</td></p>
+<p><td>continue</td></p>
+<p><td>float</td></p>
+<p><td>interfaces</td></p>
+<p><td>return</td></p>
+<p><td>throw</td><br></p>
+<p><tr></tr></p>
+<p><td>break</td></p>
+<p><td>default</td></p>
+<p><td>for</td></p>
+<p><td>long</td></p>
+<p><td>short</td></p>
+<p><td>throws</td><br></p>
+<p><tr></tr></p>
+<p><td>byte</td></p>
+<p><td>do</td></p>
+<p><td>goto</td></p>
+<p><td>native</td></p>
+<p><td>static</td></p>
+<p><td>transient</td><br></p>
+<p><tr></tr></p>
+<p><td>case</td></p>
+<p><td>double</td></p>
+<p><td>if</td></p>
+<p><td>new</td></p>
+<p><td>strictfp</td></p>
+<p><td>try</td><br></p>
+<p><tr></tr></p>
+<p><td>catch</td></p>
+<p><td>else</td></p>
+<p><td>implments</td></p>
+<p><td>package</td></p>
+<p><td>super</td></p>
+<p><td>void</td><br></p>
+<p><tr></tr></p>
+<p><td>char</td></p>
+<p><td>extends</td></p>
+<p><td>import</td></p>
+<p><td>private</td></p>
+<p><td>switch</td></p>
+<p><td>volatile</td><br><tr></tr></p>
+<p><td>class</td></p>
+<p><td>final</td></p>
+<p><td>instanceof</td></p>
+<p><td>protected</td></p>
+<p><td>synchronized</td></p>
+<p><td>while</td><br><br></p>
+<h3 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h3><p><code>byValue</code>, <code>cast</code>, <code>false</code>, <code>future</code>, <code>generic</code>, <code>inner</code>, <code>operator</code>, <code>outer</code>, <code>rest</code>, <code>true</code>, <code>var</code> , <code>goto</code> ，<code>const</code>,<code>null</code></p>
+<p>##命名规范</p>
+<blockquote>
+<p>保证可读性<br>第一个字符不能是数字<br>不能是关键字<br><br>不能是保留字<code>true</code>,<code>false</code>,<code>null</code><br>类名每个单词首字母大写，比如<code>FirstTest</code><br>方法名与变量名，除第一个首字母小写，其他首字母大写<br>常量名都要大写  final修饰的变量<br>包名都是小写</p>
 <h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><h3 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h3></blockquote>
-
-
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, user-scalable=yes&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;style&gt;&lt;br
+      &lt;h2 id=&quot;常用关键字&quot;&gt;&lt;a href=&quot;#常用关键字&quot; class=&quot;headerlink&quot; title=&quot;常用关键字&quot;&gt;&lt;/a&gt;常用关键字&lt;/h2&gt;&lt;p&gt;&lt;table&gt;&lt;/table&gt;&lt;/p&gt;
+&lt;p&gt;&lt;td&gt;abstract&lt;/td&gt;&lt;/p&gt;
+&lt;p&gt;&lt;td&gt;const&lt;
     
     </summary>
     
