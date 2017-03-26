@@ -3,13 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[java]]></title>
-      <url>%2F2017%2F03%2F26%2Fjava1%2F</url>
-      <content type="text"><![CDATA[常用关键字 abstract const finally int public this boolean continue float interfaces return throw break default for long short throws byte do goto native static transient case double if new strictfp try catch else implments package super void char extends import private switch volatile class final instanceof protected synchronized while 保留字byValue, cast, false, future, generic, inner, operator, outer, rest, true, var , goto ，const,null ##命名规范 保证可读性第一个字符不能是数字不能是关键字不能是保留字true,false,null类名每个单词首字母大写，比如FirstTest方法名与变量名，除第一个首字母小写，其他首字母大写常量名都要大写 final修饰的变量包名都是小写 数据类型基本数据类型]]></content>
-    </entry>
-
-    
-    <entry>
       <title><![CDATA[next主题添加网易云播放器在侧栏]]></title>
       <url>%2F2017%2F03%2F22%2F%E7%BD%91%E6%98%93%E4%BA%91%2F</url>
       <content type="text"><![CDATA[&#160; &#160; &#160; &#160;一般都是用网易云，这个只适用于pc端,我适用的主题风格是pisces，其他两种没有尝试 生成单曲 生成歌单 记住有些歌有版权问题，可能生成了歌单，但是不支持播放 添加外链到侧栏 进入\themes\next\layout_macro下 选择sidebar.swig123456789101112131415&#123;% if theme.links %&#125; &lt;div class=&quot;links-of-blogroll motion-element &#123;&#123; &quot;links-of-blogroll-&quot; + theme.links_layout | default(&apos;inline&apos;) &#125;&#125;&quot;&gt; &lt;div class=&quot;links-of-blogroll-title&quot;&gt; &lt;i class=&quot;fa fa-fw fa-&#123;&#123; theme.links_icon | default(&apos;globe&apos;) | lower &#125;&#125;&quot;&gt;&lt;/i&gt; &#123;&#123; theme.links_title &#125;&#125; &lt;/div&gt; &lt;ul class=&quot;links-of-blogroll-list&quot;&gt; &#123;% for name, link in theme.links %&#125; &lt;li class=&quot;links-of-blogroll-item&quot;&gt; &lt;a href=&quot;&#123;&#123; link &#125;&#125;&quot; title=&quot;&#123;&#123; name &#125;&#125;&quot; target=&quot;_blank&quot;&gt;&#123;&#123; name &#125;&#125;&lt;/a&gt; &lt;/li&gt; &#123;% endfor %&#125; &lt;/ul&gt; &lt;/div&gt; &#123;% endif %&#125; &#160; &#160; &#160; &#160;这里的Links就是你的那个外链标签，比如微博，github之类的&#160; &#160; &#160; &#160;在这个下面，添加刚刚网易云的链接&#160; &#160; &#160; &#160;比如我的1&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=110 src=&quot;//music.163.com/outchain/player?type=0&amp;id=637875896&amp;auto=0&amp;height=90&quot;&gt;&lt;/iframe&gt; &#160; &#160; &#160; &#160;然后 hexo d -g部署发布就可以看到效果了，当然你也可以直接插入到你的文章中去，直接在你的文章中引用就可以了&#160; &#160; &#160; &#160;效果可以参考我博客的效果]]></content>

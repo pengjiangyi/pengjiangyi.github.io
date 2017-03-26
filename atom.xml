@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pengjiangyi.github.io/"/>
-  <updated>2017-03-26T15:41:19.092Z</updated>
+  <updated>2017-03-25T02:29:04.619Z</updated>
   <id>https://pengjiangyi.github.io/</id>
   
   <author>
@@ -14,86 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>java</title>
-    <link href="https://pengjiangyi.github.io/2017/03/26/java1/"/>
-    <id>https://pengjiangyi.github.io/2017/03/26/java1/</id>
-    <published>2017-03-26T15:34:17.253Z</published>
-    <updated>2017-03-26T15:41:19.092Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="常用关键字"><a href="#常用关键字" class="headerlink" title="常用关键字"></a>常用关键字</h2><p><table></table></p>
-<p><td>abstract</td></p>
-<p><td>const</td></p>
-<p><td>finally</td></p>
-<p><td>int</td></p>
-<p><td>public</td></p>
-<p><td>this</td></p>
-<p><tr></tr></p>
-<p><td>boolean</td></p>
-<p><td>continue</td></p>
-<p><td>float</td></p>
-<p><td>interfaces</td></p>
-<p><td>return</td></p>
-<p><td>throw</td><br></p>
-<p><tr></tr></p>
-<p><td>break</td></p>
-<p><td>default</td></p>
-<p><td>for</td></p>
-<p><td>long</td></p>
-<p><td>short</td></p>
-<p><td>throws</td><br></p>
-<p><tr></tr></p>
-<p><td>byte</td></p>
-<p><td>do</td></p>
-<p><td>goto</td></p>
-<p><td>native</td></p>
-<p><td>static</td></p>
-<p><td>transient</td><br></p>
-<p><tr></tr></p>
-<p><td>case</td></p>
-<p><td>double</td></p>
-<p><td>if</td></p>
-<p><td>new</td></p>
-<p><td>strictfp</td></p>
-<p><td>try</td><br></p>
-<p><tr></tr></p>
-<p><td>catch</td></p>
-<p><td>else</td></p>
-<p><td>implments</td></p>
-<p><td>package</td></p>
-<p><td>super</td></p>
-<p><td>void</td><br></p>
-<p><tr></tr></p>
-<p><td>char</td></p>
-<p><td>extends</td></p>
-<p><td>import</td></p>
-<p><td>private</td></p>
-<p><td>switch</td></p>
-<p><td>volatile</td><br><tr></tr></p>
-<p><td>class</td></p>
-<p><td>final</td></p>
-<p><td>instanceof</td></p>
-<p><td>protected</td></p>
-<p><td>synchronized</td></p>
-<p><td>while</td><br><br></p>
-<h3 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h3><p><code>byValue</code>, <code>cast</code>, <code>false</code>, <code>future</code>, <code>generic</code>, <code>inner</code>, <code>operator</code>, <code>outer</code>, <code>rest</code>, <code>true</code>, <code>var</code> , <code>goto</code> ，<code>const</code>,<code>null</code></p>
-<p>##命名规范</p>
-<blockquote>
-<p>保证可读性<br>第一个字符不能是数字<br>不能是关键字<br><br>不能是保留字<code>true</code>,<code>false</code>,<code>null</code><br>类名每个单词首字母大写，比如<code>FirstTest</code><br>方法名与变量名，除第一个首字母小写，其他首字母大写<br>常量名都要大写  final修饰的变量<br>包名都是小写</p>
-<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><h3 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h3></blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;常用关键字&quot;&gt;&lt;a href=&quot;#常用关键字&quot; class=&quot;headerlink&quot; title=&quot;常用关键字&quot;&gt;&lt;/a&gt;常用关键字&lt;/h2&gt;&lt;p&gt;&lt;table&gt;&lt;/table&gt;&lt;/p&gt;
-&lt;p&gt;&lt;td&gt;abstract&lt;/td&gt;&lt;/p&gt;
-&lt;p&gt;&lt;td&gt;const&lt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>next主题添加网易云播放器在侧栏</title>
