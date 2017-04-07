@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="字符串," />
 
 
 
@@ -87,25 +87,19 @@
 
 
 
-<meta name="description" content="##每日算法—-字符串篇
-###字符串的旋转
-####题目描述给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将abcdef的前三个字符a,b,c移到尾部，原字符串变成defabc
-#####分析与理解首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法先看一下代码实现123456789101112131415161718192021222324252">
+<meta name="description" content="每日算法—-字符串篇字符串的旋转题目描述给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将abcdef的前三个字符a,b,c移到尾部，原字符串变成defabc
+分析与理解首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法先看一下代码实现123456789101112131415161718192021222324252627282930public cl">
 <meta property="og:type" content="article">
-<meta property="og:title" content="不忘初心">
+<meta property="og:title" content="字符串的旋转">
 <meta property="og:url" content="https://pengjiangyi.github.io/2017/04/07/suanfa1/index.html">
 <meta property="og:site_name" content="不忘初心">
-<meta property="og:description" content="##每日算法—-字符串篇
-###字符串的旋转
-####题目描述给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将abcdef的前三个字符a,b,c移到尾部，原字符串变成defabc
-#####分析与理解首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法先看一下代码实现123456789101112131415161718192021222324252">
-<meta property="og:updated_time" content="2017-04-07T09:34:17.433Z">
+<meta property="og:description" content="每日算法—-字符串篇字符串的旋转题目描述给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将abcdef的前三个字符a,b,c移到尾部，原字符串变成defabc
+分析与理解首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法先看一下代码实现123456789101112131415161718192021222324252627282930public cl">
+<meta property="og:updated_time" content="2017-04-07T15:11:08.570Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="不忘初心">
-<meta name="twitter:description" content="##每日算法—-字符串篇
-###字符串的旋转
-####题目描述给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将abcdef的前三个字符a,b,c移到尾部，原字符串变成defabc
-#####分析与理解首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法先看一下代码实现123456789101112131415161718192021222324252">
+<meta name="twitter:title" content="字符串的旋转">
+<meta name="twitter:description" content="每日算法—-字符串篇字符串的旋转题目描述给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将abcdef的前三个字符a,b,c移到尾部，原字符串变成defabc
+分析与理解首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法先看一下代码实现123456789101112131415161718192021222324252627282930public cl">
 
 
 
@@ -139,7 +133,7 @@
 
 
 
-  <title>  | 不忘初心 </title>
+  <title> 字符串的旋转 | 不忘初心 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -333,7 +327,7 @@
             
             
               
-                
+                字符串的旋转
               
             
           </h1>
@@ -358,6 +352,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/算法/" itemprop="url" rel="index">
+                    <span itemprop="name">算法</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -399,12 +415,8 @@
       
 
       
-        <hr>
-<hr>
-<p>##每日算法—-字符串篇</p>
-<p>###字符串的旋转</p>
-<p>####题目描述<br>给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将<code>abcdef</code>的前三个字符<code>a</code>,<code>b</code>,<code>c</code>移到尾部，原字符串变成<code>defabc</code></p>
-<p>#####分析与理解<br>首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法<br>先看一下代码实现<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">public class Test1 &#123;</div><div class="line"></div><div class="line">	/**</div><div class="line">	 * @param args</div><div class="line">	 */</div><div class="line">	public static String change(String key,int m)</div><div class="line">	&#123;</div><div class="line">		while(m&gt;0)</div><div class="line">		&#123;</div><div class="line">		char[] arr=key.toCharArray();</div><div class="line">		char first=arr[0];</div><div class="line">		for(int i=1;i&lt;arr.length;i++)</div><div class="line">		&#123;</div><div class="line">			char temp=arr[i];</div><div class="line">			arr[i-1]=arr[i];</div><div class="line">			arr[i]=temp;	</div><div class="line">		&#125;</div><div class="line">		arr[arr.length-1]=first;</div><div class="line">		key=String.valueOf(arr);</div><div class="line">		m--;</div><div class="line">		System.out.println(key);</div><div class="line">		&#125;</div><div class="line">		return key;</div><div class="line">	&#125;</div><div class="line">	public static void main(String[] args) &#123;</div><div class="line">		String key=&quot;abcdef&quot;;</div><div class="line">		change(key,3);</div><div class="line">	&#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+        <h2 id="每日算法—-字符串篇"><a href="#每日算法—-字符串篇" class="headerlink" title="每日算法—-字符串篇"></a>每日算法—-字符串篇</h2><h3 id="字符串的旋转"><a href="#字符串的旋转" class="headerlink" title="字符串的旋转"></a>字符串的旋转</h3><h4 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h4><p>给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将<code>abcdef</code>的前三个字符<code>a</code>,<code>b</code>,<code>c</code>移到尾部，原字符串变成<code>defabc</code></p>
+<h5 id="分析与理解"><a href="#分析与理解" class="headerlink" title="分析与理解"></a>分析与理解</h5><p>首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法<br>先看一下代码实现<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">public class Test1 &#123;</div><div class="line"></div><div class="line">	/**</div><div class="line">	 * @param args</div><div class="line">	 */</div><div class="line">	public static String change(String key,int m)</div><div class="line">	&#123;</div><div class="line">		while(m&gt;0)</div><div class="line">		&#123;</div><div class="line">		char[] arr=key.toCharArray();</div><div class="line">		char first=arr[0];</div><div class="line">		for(int i=1;i&lt;arr.length;i++)</div><div class="line">		&#123;</div><div class="line">			char temp=arr[i];</div><div class="line">			arr[i-1]=arr[i];</div><div class="line">			arr[i]=temp;	</div><div class="line">		&#125;</div><div class="line">		arr[arr.length-1]=first;</div><div class="line">		key=String.valueOf(arr);</div><div class="line">		m--;</div><div class="line">		System.out.println(key);</div><div class="line">		&#125;</div><div class="line">		return key;</div><div class="line">	&#125;</div><div class="line">	public static void main(String[] args) &#123;</div><div class="line">		String key=&quot;abcdef&quot;;</div><div class="line">		change(key,3);</div><div class="line">	&#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -448,6 +460,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/字符串/" rel="tag"># 字符串</a>
+          
+        </div>
+      
 
       
         
@@ -481,7 +499,7 @@
     <div class="post-spread">
       
         <div class="ds-share flat" data-thread-key="2017/04/07/suanfa1/"
-     data-title=""
+     data-title="字符串的旋转"
      data-content=""
      data-url="https://pengjiangyi.github.io/2017/04/07/suanfa1/">
   <div class="ds-share-inline">
@@ -511,7 +529,7 @@
   <div class="comments" id="comments">
     
       <div class="ds-thread" data-thread-key="2017/04/07/suanfa1/"
-           data-title="" data-url="https://pengjiangyi.github.io/2017/04/07/suanfa1/">
+           data-title="字符串的旋转" data-url="https://pengjiangyi.github.io/2017/04/07/suanfa1/">
       </div>
     
   </div>
@@ -538,8 +556,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -565,7 +592,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -576,7 +603,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -622,6 +649,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#每日算法—-字符串篇"><span class="nav-number">1.</span> <span class="nav-text">每日算法—-字符串篇</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#字符串的旋转"><span class="nav-number">1.1.</span> <span class="nav-text">字符串的旋转</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#题目描述"><span class="nav-number">1.1.1.</span> <span class="nav-text">题目描述</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#分析与理解"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">分析与理解</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
