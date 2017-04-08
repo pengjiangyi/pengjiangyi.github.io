@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[字符串的旋转]]></title>
       <url>%2F2017%2F04%2F07%2Fsuanfa1%2F</url>
-      <content type="text"><![CDATA[每日算法—-字符串篇字符串的旋转题目描述给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将abcdef的前三个字符a,b,c移到尾部，原字符串变成defabc 分析与理解首先应该想到的是，直接将所有的字符向前挪，也就是移到字符串的尾部，我们也叫暴力法先看一下代码实现123456789101112131415161718192021222324252627282930public class Test1 &#123; /** * @param args */ public static String change(String key,int m) &#123; while(m&gt;0) &#123; char[] arr=key.toCharArray(); char first=arr[0]; for(int i=1;i&lt;arr.length;i++) &#123; char temp=arr[i]; arr[i-1]=arr[i]; arr[i]=temp; &#125; arr[arr.length-1]=first; key=String.valueOf(arr); m--; System.out.println(key); &#125; return key; &#125; public static void main(String[] args) &#123; String key=&quot;abcdef&quot;; change(key,3); &#125;&#125; 输出分析与理解]]></content>
+      <content type="text"><![CDATA[每日算法—-字符串篇字符串的旋转题目描述给定一个字符串，要求将字符串前面的n个字符转移到尾部，例如给定将abcdef的前三个字符a,b,c移到尾部，原字符串变成defabc 解法1：蛮力移位 将字符依次往后挪，时间复杂度o(m*n) m:表示移动位数 n：字符串长度123456789101112131415161718192021222324252627282930public class Test1 &#123; /** * @param args */ public static String change(String key,int m) &#123; while(m&gt;0) &#123; char[] arr=key.toCharArray(); char first=arr[0]; for(int i=1;i&lt;arr.length;i++) &#123; char temp=arr[i]; arr[i-1]=arr[i]; arr[i]=temp; &#125; arr[arr.length-1]=first; key=String.valueOf(arr); m--; System.out.println(key); &#125; return key; &#125; public static void main(String[] args) &#123; String key=&quot;abcdef&quot;; change(key,3); &#125;&#125; 输出结果]]></content>
     </entry>
 
     
