@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pengjiangyi.github.io/"/>
-  <updated>2017-04-08T05:10:43.755Z</updated>
+  <updated>2017-04-08T08:35:39.505Z</updated>
   <id>https://pengjiangyi.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://pengjiangyi.github.io/2017/04/08/bianchen1/"/>
+    <id>https://pengjiangyi.github.io/2017/04/08/bianchen1/</id>
+    <published>2017-04-08T08:35:39.286Z</published>
+    <updated>2017-04-08T08:35:39.505Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<hr>
+<h2 id="每日编程"><a href="#每日编程" class="headerlink" title="每日编程"></a>每日编程</h2><h3 id="简答题"><a href="#简答题" class="headerlink" title="简答题"></a>简答题</h3><p><code>简述静态变量和实例变量的区别</code></p>
+<blockquote>
+<p>静态变量就是static修饰的变量，也称为类变量，它属于类，不属于类的任何一个对象,一个类不管新建多少个对象，这个变量仅有一个拷贝，静态变量可以多个对象共享一个内存<br>实例变量必须依赖于一个实例，需要先创建对象然后通过对象来调用，<br><code>是否可以从一个静态方法中发出非静态方法的调用</code><br>静态方法中只支持静态变量和方法的调用，因为非静态方法的调用要先创建对象,在调用静态方法时可能对象没有初始化</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;每日编程&quot;&gt;&lt;a href=&quot;#每日编程&quot; class=&quot;headerlink&quot; title=&quot;每日编程&quot;&gt;&lt;/a&gt;每日编程&lt;/h2&gt;&lt;h3 id=&quot;简答题&quot;&gt;&lt;a href=&quot;#简答题&quot; class=&quot;headerlink&quot; title=&quot;简
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>字符串的旋转</title>
